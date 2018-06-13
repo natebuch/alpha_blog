@@ -1,5 +1,8 @@
 $navbar-default-bg: lightseagreen;
 
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
 #logo {
   float: left;
   font-size: 1.7em;
@@ -9,6 +12,46 @@ $navbar-default-bg: lightseagreen;
   font-weight: bold;
 }
 
-@import "bootstrap-sprockets";
-@import "bootstrap";
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('sedonaBG.png');
+  background-size: cover;
+  height: 400px;
+}
+
+.jumbotron h1 {
+  text-align: center;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 3px solid lightblue;
+}
+
+footer a:hover {
+  color: darkblue;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
+
+
+
+
+
 
