@@ -1,5 +1,10 @@
 $navbar-default-bg: lightseagreen;
 
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+     color: black;
+}
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -52,6 +57,11 @@ $navbar-default-bg: lightseagreen;
   padding-top: 15px; 
   padding-bottom:15px;
 
+}
+
+.listing {
+  list-style: none;
+  padding-left: 0;
 }
 
 footer {
