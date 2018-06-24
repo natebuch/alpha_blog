@@ -1,12 +1,26 @@
-$navbar-default-bg: lightseagreen;
-
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-     color: black;
-}
+/* $navbar-default-bg: black; */
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.navbar-default {
+  background-color: steelblue;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+.navbar-default .navbar-brand:hover {
+  color: white;
+  opacity: 0.75;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+  opacity: 0.75;
+}
 
 #logo {
   float: left;
@@ -33,13 +47,13 @@ $navbar-default-bg: lightseagreen;
 
 
 .article-meta-details {
-  border-top: 1px solid lightblue;
+  border-top: 1px solid steelblue;
   margin-top: 15px;
 }
 
 
 .article-actions {
-  border-top: 1px solid darkblue;
+  border-top: 1px solid steelblue;
   padding-top: 5px;
 }
 
@@ -53,7 +67,7 @@ $navbar-default-bg: lightseagreen;
 }
 
 .article-body {
-  border-top: 1px solid lightblue;
+  border-top: 1px solid steelblue;
   padding-top: 15px; 
   padding-bottom:15px;
 
@@ -67,7 +81,7 @@ $navbar-default-bg: lightseagreen;
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 3px solid lightblue;
+  border-top: 3px solid steelblue;
 }
 
 footer a:hover {
